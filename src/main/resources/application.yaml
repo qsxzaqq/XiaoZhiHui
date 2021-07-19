@@ -1,0 +1,22 @@
+dzh:
+  phone:
+    device: "300000000327123"
+  server:
+    ip: "122.112.221.118"
+    port: 12345
+  stocks_3018_100:
+  - "SH601899"
+  - "SH603279"
+  - "SZ000738"
+
+spring:
+  data:
+    mongodb:
+      host: 192.168.99.254
+      port: 27017
+      username: dzh
+      password: qwert
+      database: dzh
+  redis:
+    host: 192.168.99.254
+    port: 6379
